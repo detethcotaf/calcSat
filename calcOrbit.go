@@ -10,10 +10,10 @@ func CalcParabola(q float64) func(x float64) float64 {
 	}
 }
 
-// 楕円
+// 楕円（直交座標x, y）
 
 
-// 双曲線
+// 双曲線（直交座標x, y）
 
 
 

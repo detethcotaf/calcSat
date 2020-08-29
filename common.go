@@ -5,6 +5,16 @@ import (
 	"math"
 )
 
+// constant values
+const gravitationalConstant = 398600.4 // 重力定数
+const earthRadius = 6378.137 // 地球の半径
+
+const gravitationalConstantSun = 132712440000 // 太陽の重力定数
+const distanceEarthSun = 149597870 // 地球と太陽間の距離（km）
+
+const earthOrbitalSpeed = 29.784 // 地球の公転速度（km）
+
+
 // init - last の数値をintervalごとにリストにして返す
 func CreateNumList(init, last, interval float64)(nums []float64, err error){
 	if interval < 0.01 {
